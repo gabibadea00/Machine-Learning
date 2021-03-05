@@ -1,0 +1,8 @@
+{
+    "mode": "train",
+    "verbose": true,
+    "train_path": "../test/dataset.xlsx",
+    "test_path": "",
+    "mean_age": 48,
+    "result_path": "../result/"
+}

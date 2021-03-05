@@ -1,0 +1,47 @@
+/*
+In acest document vor fi descrise fisierele si functiile acestora
+*/
+
+I.parseTimeDate.py: (parseaza date calendaristice)
+    1.diff_dates =>
+        * functie care face diferenta intre 01.01.2020 si data trimisa si returneaza
+    numarul de zile;
+    2.hasNumbers
+        * functie care verifica daca exista numere valide in string-ul primit;
+    3.findDate
+        * functie care gaseste o data calendaristica valida intr-un string;
+    4.parseTime
+        * functie de parsare a unei date calendaristice si returnarea unui intreg
+        reprezentand un numar de zile diferenta fata de 01.01.2020 sau None daca 
+        strig-ul primit nu e o data calendaristica;
+        
+ II. label_parser.py: (parseaza institutia, sexul, varsta si rezultatul testarii)
+    1.isNaN =>
+        * functie care verifica daca un string are valoarea "NaN";
+    2.institution_parser =>
+        * functie de parsare a institutiei, care intoarce un intreg in functie de
+        institutia gasita. Aceasta intoarce valoarea 0 in cazul in care institutia
+        nu este o institutie cunoscuta;
+    3.sex_parser =>
+        * functie de parsare a sexului unei persoane. Aceasta intoarce un intreg
+        astfel: 0 daca sexul nu este cunoscut, 1 pentru masculin, 2 pentru feminin;
+    4.age_parser =>
+        * functie de parsare a varstei unei persoane. Aceasta intoarce varsta unei
+        persoane (int) in cazul in care aceasta este precizata sau media varstei
+        pe intreg setul de date daca varsta nu este precizata. Pentru persoanele
+        cu varsta sub 1 an, aceasta va intoarce valoarea "1";
+    5.result_parser =>
+        * functie de parsare a rezultatului testarii. Aceasta intoarce valoarea
+        0 pentru negativ, 1 pentru pozitiv sau 2 pentru orice alta intrare;
+        
+ III. mean_age_calculator.py: (calculeaza varsta medie din setul de date)
+ IV. symptom_parser.py:
+       1. main-ul =>
+            *utilzat pentru a putea crea dictionarul de simptome.
+       2. parse_symptoms =>
+            *functie pe baza unui string dat se creaza o lista avand ca date 1/0 fiecare index fiind predestinat unui simptom.
+       3. search_value =>
+            *functie de cautare a simptomului in string-ul dat ca parametru pentru functia parse_symptoms.
+       4. search =>
+            *functie de cautare a unui substring intr-un string permitand eliminarea unei litere.
+       

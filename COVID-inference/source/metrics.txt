@@ -1,0 +1,6 @@
+Accuracy:89.23%
+True positives:2
+False positives:0
+True negatives:520
+False negatives:63
+AUC: 0.852
